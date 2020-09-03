@@ -17,12 +17,6 @@ class TestMain(unittest.TestCase):
 		result = main.do_stuff(test_param)
 		self.assertEqual(result, 'please enter number')
 
-	# This function already exists	
-	# def test_do_stuff4(self):
-	# 	test_param = None
-	# 	result = main.do_stuff(test_param)
-	# 	self.assertEqual(result, 'please enter number')
-
 
 if __name__ == '__main__':
 	unittest.main()
